@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0CF7DF1DA9518800020582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0CF7DE1DA9518800020582 /* Assets.xcassets */; };
 		4C13507A1DA9379A00939553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1350791DA9379A00939553 /* AppDelegate.swift */; };
 		4C13507C1DA9379A00939553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C13507B1DA9379A00939553 /* ViewController.swift */; };
 		4C13507F1DA9379A00939553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C13507D1DA9379A00939553 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0CF7DE1DA9518800020582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1350761DA9379A00939553 /* mhacks8AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mhacks8AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1350791DA9379A00939553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C13507B1DA9379A00939553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		4C1350781DA9379A00939553 /* mhacks8AR */ = {
 			isa = PBXGroup;
 			children = (
+				4C0CF7DE1DA9518800020582 /* Assets.xcassets */,
 				4C1350C01DA93C2200939553 /* MapViewController.swift */,
 				4C1350C11DA93C2200939553 /* CameraViewController.swift */,
 				4C1350C21DA93C2200939553 /* MarkerView.swift */,
@@ -294,6 +297,7 @@
 			files = (
 				4C1350841DA9379A00939553 /* LaunchScreen.storyboard in Resources */,
 				4C1350811DA9379A00939553 /* Assets.xcassets in Resources */,
+				4C0CF7DF1DA9518800020582 /* Assets.xcassets in Resources */,
 				4C13507F1DA9379A00939553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
