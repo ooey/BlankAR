@@ -26,24 +26,35 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
     @IBAction func injury(_ sender: AnyObject) {
         
-        print("YOU PICKED INJURY")
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewC = storyboard.instantiateViewController(withIdentifier: "ARCamera")
+        
+        self.present(viewC, animated: true, completion: nil)
+        
     }
 
     
     
     @IBAction func cough(_ sender: AnyObject) {
     
-        print("YOU PICKED COUGH")
 
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewC = storyboard.instantiateViewController(withIdentifier: "ARCamera")
+        
+        self.present(viewC, animated: true, completion: nil)
     }
     
     
     @IBAction func fever(_ sender: AnyObject) {
     
-        print("YOU PICKED FEVER")
-
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewC = storyboard.instantiateViewController(withIdentifier: "ARCamera")
+        
+        self.present(viewC, animated: true, completion: nil)
     }
     
     

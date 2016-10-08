@@ -9,7 +9,7 @@ class CameraViewController: UIViewController, ARLocationDelegate, ARDelegate, AR
     var geoLocationsArray = [ARGeoCoordinate]()
     var _arController:AugmentedRealityController!
     
-    
+    var sympton: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
