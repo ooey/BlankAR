@@ -24,17 +24,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1N-1F-AUJ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="hHi-Uu-R53"/>
+                                    <constraint firstAttribute="width" constant="240" id="tLu-re-GJd"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.99215686274509807" green="0.74509803921568629" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hRg-48-I2E" secondAttribute="bottom" id="1lA-Ys-D2v"/>
+                            <constraint firstItem="G1N-1F-AUJ" firstAttribute="top" secondItem="6d2-Vl-Nu3" secondAttribute="bottom" constant="54" id="Dtu-c5-63I"/>
                             <constraint firstItem="hRg-48-I2E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H0I-lU-2XY"/>
                             <constraint firstItem="hRg-48-I2E" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="J54-YM-cKs"/>
                             <constraint firstItem="6d2-Vl-Nu3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q4h-mj-Au9"/>
+                            <constraint firstItem="G1N-1F-AUJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S3n-KH-LhJ"/>
                             <constraint firstItem="6d2-Vl-Nu3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TgW-h5-NRb"/>
                             <constraint firstAttribute="trailing" secondItem="hRg-48-I2E" secondAttribute="trailing" id="lfd-RJ-Vg1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="symptomScroll" destination="G1N-1F-AUJ" id="5fa-nx-C4t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
