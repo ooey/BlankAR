@@ -1,0 +1,6 @@
+framework module Pods_mhacks8ARTests {
+  umbrella header "Pods-mhacks8ARTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
