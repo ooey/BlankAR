@@ -1,10 +1,10 @@
 import CoreLocation
 import MapKit
 
-class Place : NSObject , MKAnnotation {
+class Target : NSObject , MKAnnotation {
     var location:CLLocation!
     var reference:String! = ""
-    var placeName:String! = ""
+    var productName:String! = ""
     var address:String! = ""
     var phoneNumber:String! = ""
     var website:String! = ""
@@ -12,7 +12,7 @@ class Place : NSObject , MKAnnotation {
     init(_location: CLLocation, _reference: String, _placeName: String, _address: String, _phoneNumber: String, _website: String) {
         self.location       = _location
         self.reference      = _reference
-        self.placeName      = _placeName
+        self.productName      = _placeName
         self.address        = _address
         self.phoneNumber    = _phoneNumber
         self.website    = _website
@@ -21,8 +21,8 @@ class Place : NSObject , MKAnnotation {
     func infoText() -> String {
         var mutableString:String = ""
         
-        if(self.placeName != "") {
-            mutableString += "Name: \(self.placeName)\n\n"
+        if(self.productName != "") {
+            mutableString += "Name: \(self.productName)\n\n"
         }
         
         if(self.address != "") {

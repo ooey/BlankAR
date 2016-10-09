@@ -73,14 +73,14 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         }
     }
     
-    func locationManager(_ manager: CLLocationManager!, didChangeAuthorization status: CLAuthorizationStatus) {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         self._mapView.showsUserLocation = true
     }
     
     func randomLocation(_ location:CLLocation, number:Int) {
         for _ in 1...number {
-            var newLocation = CLLocation(latitude: location.coordinate.latitude + 0.005 * Double.random(min: -1.0, 1.0) , longitude: location.coordinate.longitude + 0.005 * Double.random(min: -1.0, 1.0))
-            var place = Place(_location: newLocation, _reference: "_reference", _placeName: "Steven Piggy's Park", _address: "_address", _phoneNumber: "_phoneNumber", _website: "_website")
+            let newLocation = CLLocation(latitude: location.coordinate.latitude + 0.005 * Double.random(min: -1.0, 1.0) , longitude: location.coordinate.longitude + 0.005 * Double.random(min: -1.0, 1.0))
+            let place = Place(_location: newLocation, _reference: "_reference", _placeName: "Steven Piggy's Park", _address: "_address", _phoneNumber: "_phoneNumber", _website: "_website")
             locations.append(place)
         }
         showLocations()
