@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Alamofire
 
-class Target (
+class Target {
 
     func getRecommendations() {
         var MapCenter: [String: Dictionary] = [
