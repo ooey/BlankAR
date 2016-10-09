@@ -4,7 +4,7 @@
 //
 //  Created by Jessica Joseph on 10/8/16.
 //  Copyright © 2016 Jessica Joseph. All rights reserved.
-//
+///Users/lilannaye/Downloads/14625805_1178551335558645_706591070_o.png
 
 import UIKit
 
@@ -28,7 +28,6 @@ class ViewController: UIViewController {
 
     
     @IBAction func injury(_ sender: AnyObject) {
-        
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewC = storyboard.instantiateViewController(withIdentifier: "ARCamera")

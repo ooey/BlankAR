@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28EF12B01DA9C493009560BD /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF12AF1DA9C493009560BD /* Target.swift */; };
 		4C0CF7DF1DA9518800020582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0CF7DE1DA9518800020582 /* Assets.xcassets */; };
 		4C13507A1DA9379A00939553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1350791DA9379A00939553 /* AppDelegate.swift */; };
 		4C13507C1DA9379A00939553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C13507B1DA9379A00939553 /* ViewController.swift */; };
@@ -26,6 +27,9 @@
 		4C1350C31DA93C2200939553 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1350C01DA93C2200939553 /* MapViewController.swift */; };
 		4C1350C41DA93C2200939553 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1350C11DA93C2200939553 /* CameraViewController.swift */; };
 		4C1350C51DA93C2200939553 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1350C21DA93C2200939553 /* MarkerView.swift */; };
+		5F98D66FD4D53DC6851918D2 /* Pods_mhacks8ARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4511BDF5FF201483B29F80 /* Pods_mhacks8ARTests.framework */; };
+		848B82C8F8EBC1C525235441 /* Pods_mhacks8AR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7174E0AD00137CA10CBEAEB /* Pods_mhacks8AR.framework */; };
+		D16AA11ACA27BDE5055F8586 /* Pods_mhacks8ARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E96EA01CE7B11DF9D91674 /* Pods_mhacks8ARUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A1A5201B961F73F1D887C3 /* Pods-mhacks8AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8AR/Pods-mhacks8AR.release.xcconfig"; sourceTree = "<group>"; };
+		14A20AA513FE91101DAB8D59 /* Pods-mhacks8AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8AR/Pods-mhacks8AR.debug.xcconfig"; sourceTree = "<group>"; };
+		14E96EA01CE7B11DF9D91674 /* Pods_mhacks8ARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mhacks8ARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EF12AD1DA98E98009560BD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		28EF12AF1DA9C493009560BD /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		494D8C1B8F751E8A1AF4E1A8 /* Pods-mhacks8ARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8ARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8ARUITests/Pods-mhacks8ARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C0CF7DE1DA9518800020582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1350761DA9379A00939553 /* mhacks8AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mhacks8AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1350791DA9379A00939553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,11 @@
 		4C1350C01DA93C2200939553 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4C1350C11DA93C2200939553 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		4C1350C21DA93C2200939553 /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
+		4F4511BDF5FF201483B29F80 /* Pods_mhacks8ARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mhacks8ARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4174398E732388B706DFB3 /* Pods-mhacks8ARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8ARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8ARTests/Pods-mhacks8ARTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C95776EB1A2A53D6DEA47F /* Pods-mhacks8ARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8ARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8ARTests/Pods-mhacks8ARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7174E0AD00137CA10CBEAEB /* Pods_mhacks8AR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mhacks8AR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F746609D91782F843B4EEE46 /* Pods-mhacks8ARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mhacks8ARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mhacks8ARUITests/Pods-mhacks8ARUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848B82C8F8EBC1C525235441 /* Pods_mhacks8AR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F98D66FD4D53DC6851918D2 /* Pods_mhacks8ARTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +117,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16AA11ACA27BDE5055F8586 /* Pods_mhacks8ARUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28EF12AE1DA9C386009560BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28EF12AF1DA9C493009560BD /* Target.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4732723448014B7AB517456B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7174E0AD00137CA10CBEAEB /* Pods_mhacks8AR.framework */,
+				4F4511BDF5FF201483B29F80 /* Pods_mhacks8ARTests.framework */,
+				14E96EA01CE7B11DF9D91674 /* Pods_mhacks8ARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C13506D1DA9379A00939553 = {
 			isa = PBXGroup;
 			children = (
+				28EF12AE1DA9C386009560BD /* Models */,
+				28EF12AD1DA98E98009560BD /* Podfile */,
 				4C1350A71DA9389700939553 /* AR */,
 				4C1350781DA9379A00939553 /* mhacks8AR */,
 				4C13508D1DA9379B00939553 /* mhacks8ARTests */,
 				4C1350981DA9379B00939553 /* mhacks8ARUITests */,
 				4C1350771DA9379A00939553 /* Products */,
+				61BDE2F82E32F805497C06BC /* Pods */,
+				4732723448014B7AB517456B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +225,19 @@
 			path = AR;
 			sourceTree = "<group>";
 		};
+		61BDE2F82E32F805497C06BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A20AA513FE91101DAB8D59 /* Pods-mhacks8AR.debug.xcconfig */,
+				10A1A5201B961F73F1D887C3 /* Pods-mhacks8AR.release.xcconfig */,
+				B7C95776EB1A2A53D6DEA47F /* Pods-mhacks8ARTests.debug.xcconfig */,
+				8F4174398E732388B706DFB3 /* Pods-mhacks8ARTests.release.xcconfig */,
+				F746609D91782F843B4EEE46 /* Pods-mhacks8ARUITests.debug.xcconfig */,
+				494D8C1B8F751E8A1AF4E1A8 /* Pods-mhacks8ARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C13509E1DA9379B00939553 /* Build configuration list for PBXNativeTarget "mhacks8AR" */;
 			buildPhases = (
+				7BCC149D77894FF1416F402F /* [CP] Check Pods Manifest.lock */,
 				4C1350721DA9379A00939553 /* Sources */,
 				4C1350731DA9379A00939553 /* Frameworks */,
 				4C1350741DA9379A00939553 /* Resources */,
+				FB82F71A03D756DD56ACB460 /* [CP] Embed Pods Frameworks */,
+				E1F7861A7AB2BF5FC90BC062 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C1350A11DA9379B00939553 /* Build configuration list for PBXNativeTarget "mhacks8ARTests" */;
 			buildPhases = (
+				018871F452F6A88F3A0937C4 /* [CP] Check Pods Manifest.lock */,
 				4C1350861DA9379B00939553 /* Sources */,
 				4C1350871DA9379B00939553 /* Frameworks */,
 				4C1350881DA9379B00939553 /* Resources */,
+				B7FA9C7055E691A399AF9682 /* [CP] Embed Pods Frameworks */,
+				CDF87719D871F3CBF69787C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C1350A41DA9379B00939553 /* Build configuration list for PBXNativeTarget "mhacks8ARUITests" */;
 			buildPhases = (
+				882425567C4A308361CF0BE2 /* [CP] Check Pods Manifest.lock */,
 				4C1350911DA9379B00939553 /* Sources */,
 				4C1350921DA9379B00939553 /* Frameworks */,
 				4C1350931DA9379B00939553 /* Resources */,
+				F78A08F34094C9F5301D57C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,7 +314,7 @@
 				TargetAttributes = {
 					4C1350751DA9379A00939553 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = G87HUM96UL;
+						DevelopmentTeam = D4TDGM2SX4;
 						ProvisioningStyle = Automatic;
 					};
 					4C1350891DA9379B00939553 = {
@@ -318,6 +379,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018871F452F6A88F3A0937C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCC149D77894FF1416F402F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		882425567C4A308361CF0BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FA9C7055E691A399AF9682 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mhacks8ARTests/Pods-mhacks8ARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF87719D871F3CBF69787C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mhacks8ARTests/Pods-mhacks8ARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F7861A7AB2BF5FC90BC062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mhacks8AR/Pods-mhacks8AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78A08F34094C9F5301D57C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mhacks8ARUITests/Pods-mhacks8ARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB82F71A03D756DD56ACB460 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mhacks8AR/Pods-mhacks8AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C1350721DA9379A00939553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -333,6 +517,7 @@
 				4C1350B61DA9389700939553 /* ARKit.m in Sources */,
 				4C13507C1DA9379A00939553 /* ViewController.swift in Sources */,
 				4C1350B51DA9389700939553 /* ARGeoCoordinate.m in Sources */,
+				28EF12B01DA9C493009560BD /* Target.swift in Sources */,
 				4C1350C51DA93C2200939553 /* MarkerView.swift in Sources */,
 				4C13507A1DA9379A00939553 /* AppDelegate.swift in Sources */,
 				4C1350BF1DA93BA200939553 /* Place.swift in Sources */,
@@ -483,13 +668,17 @@
 		};
 		4C13509F1DA9379B00939553 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A20AA513FE91101DAB8D59 /* Pods-mhacks8AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G87HUM96UL;
 				INFOPLIST_FILE = mhacks8AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.mhacks8AR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "mhacks8AR/AR-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -497,13 +686,17 @@
 		};
 		4C1350A01DA9379B00939553 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A1A5201B961F73F1D887C3 /* Pods-mhacks8AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G87HUM96UL;
 				INFOPLIST_FILE = mhacks8AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.mhacks8AR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "mhacks8AR/AR-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -511,6 +704,7 @@
 		};
 		4C1350A21DA9379B00939553 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C95776EB1A2A53D6DEA47F /* Pods-mhacks8ARTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +720,7 @@
 		};
 		4C1350A31DA9379B00939553 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4174398E732388B706DFB3 /* Pods-mhacks8ARTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +736,7 @@
 		};
 		4C1350A51DA9379B00939553 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F746609D91782F843B4EEE46 /* Pods-mhacks8ARUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G87HUM96UL;
@@ -548,6 +744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.mhacks8ARUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = mhacks8AR;
 			};
@@ -555,6 +752,7 @@
 		};
 		4C1350A61DA9379B00939553 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494D8C1B8F751E8A1AF4E1A8 /* Pods-mhacks8ARUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G87HUM96UL;
@@ -562,6 +760,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.jessicajoseph.mhacks8ARUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.11;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = mhacks8AR;
 			};

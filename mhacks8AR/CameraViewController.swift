@@ -3,7 +3,6 @@ import MapKit
 
 class CameraViewController: UIViewController, ARLocationDelegate, ARDelegate, ARMarkerDelegate, MarkerViewDelegate {
     
-    
     var userLocation:MKUserLocation?
     var locations = [Place]()
     var geoLocationsArray = [ARGeoCoordinate]()
@@ -56,7 +55,6 @@ class CameraViewController: UIViewController, ARLocationDelegate, ARDelegate, AR
             generateGeoLocations()
         }
         return NSMutableArray(array: geoLocationsArray) ;
-        
     }
     
     func locationClicked() {
@@ -83,5 +81,4 @@ class CameraViewController: UIViewController, ARLocationDelegate, ARDelegate, AR
     @IBAction func doneAction() {
         dismiss(animated: true, completion: nil)
     }
-    
 }
